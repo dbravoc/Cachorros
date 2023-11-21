@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.my-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  overflow: hidden;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+}
+
+.my-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+Footer {
+  border-top: solid green;
+  padding-top: 30px;
+}
